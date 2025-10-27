@@ -70,10 +70,11 @@
             LoginButton.FillColor = Color.FromArgb(255, 107, 0);
             LoginButton.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             LoginButton.ForeColor = Color.White;
-            LoginButton.Location = new Point(597, 375);
+            LoginButton.Location = new Point(454, 666);
+            LoginButton.Margin = new Padding(3, 4, 3, 4);
             LoginButton.Name = "LoginButton";
             LoginButton.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            LoginButton.Size = new Size(282, 49);
+            LoginButton.Size = new Size(322, 65);
             LoginButton.TabIndex = 3;
             LoginButton.Text = "Login";
             LoginButton.Click += LoginButton_Click;
@@ -82,9 +83,9 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(493, 273);
+            label3.Location = new Point(563, 364);
             label3.Name = "label3";
-            label3.Size = new Size(76, 21);
+            label3.Size = new Size(93, 28);
             label3.TabIndex = 5;
             label3.Text = "Password";
             // 
@@ -92,9 +93,9 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(493, 186);
+            label2.Location = new Point(563, 248);
             label2.Name = "label2";
-            label2.Size = new Size(81, 21);
+            label2.Size = new Size(99, 28);
             label2.TabIndex = 2;
             label2.Text = "Username";
             // 
@@ -112,13 +113,13 @@
             Password.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             Password.Font = new Font("Segoe UI", 9F);
             Password.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            Password.Location = new Point(493, 306);
-            Password.Margin = new Padding(3, 4, 3, 4);
+            Password.Location = new Point(563, 408);
+            Password.Margin = new Padding(3, 5, 3, 5);
             Password.Name = "Password";
             Password.PlaceholderText = "Your password";
             Password.SelectedText = "";
             Password.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            Password.Size = new Size(486, 45);
+            Password.Size = new Size(555, 60);
             Password.TabIndex = 1;
             Password.UseSystemPasswordChar = true;
             // 
@@ -136,22 +137,22 @@
             Username.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             Username.Font = new Font("Segoe UI", 9F);
             Username.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            Username.Location = new Point(493, 219);
-            Username.Margin = new Padding(3, 4, 3, 4);
+            Username.Location = new Point(563, 292);
+            Username.Margin = new Padding(3, 5, 3, 5);
             Username.Name = "Username";
             Username.PlaceholderText = "Enter your username";
             Username.SelectedText = "";
             Username.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            Username.Size = new Size(486, 45);
+            Username.Size = new Size(555, 60);
             Username.TabIndex = 0;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(705, 128);
+            label1.Location = new Point(806, 171);
             label1.Name = "label1";
-            label1.Size = new Size(66, 30);
+            label1.Size = new Size(85, 37);
             label1.TabIndex = 4;
             label1.Text = "Login";
             // 
@@ -162,9 +163,10 @@
             guna2PictureBox1.Image = (Image)resources.GetObject("guna2PictureBox1.Image");
             guna2PictureBox1.ImageRotate = 0F;
             guna2PictureBox1.Location = new Point(0, 0);
+            guna2PictureBox1.Margin = new Padding(3, 4, 3, 4);
             guna2PictureBox1.Name = "guna2PictureBox1";
             guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2PictureBox1.Size = new Size(392, 600);
+            guna2PictureBox1.Size = new Size(448, 800);
             guna2PictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             guna2PictureBox1.TabIndex = 22;
             guna2PictureBox1.TabStop = false;
@@ -174,19 +176,20 @@
             guna2PictureBox2.CustomizableEdges = customizableEdges1;
             guna2PictureBox2.Image = (Image)resources.GetObject("guna2PictureBox2.Image");
             guna2PictureBox2.ImageRotate = 0F;
-            guna2PictureBox2.Location = new Point(659, 0);
+            guna2PictureBox2.Location = new Point(753, 0);
+            guna2PictureBox2.Margin = new Padding(3, 4, 3, 4);
             guna2PictureBox2.Name = "guna2PictureBox2";
             guna2PictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2PictureBox2.Size = new Size(158, 125);
+            guna2PictureBox2.Size = new Size(181, 167);
             guna2PictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             guna2PictureBox2.TabIndex = 23;
             guna2PictureBox2.TabStop = false;
             // 
             // LoginForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1057, 600);
+            ClientSize = new Size(1208, 800);
             Controls.Add(guna2PictureBox2);
             Controls.Add(guna2PictureBox1);
             Controls.Add(LoginButton);
@@ -196,6 +199,7 @@
             Controls.Add(Username);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "LoginForm";
